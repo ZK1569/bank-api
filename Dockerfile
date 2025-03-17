@@ -1,10 +1,6 @@
 # syntax=docker/dockerfile:1.4
 FROM golang:1.24 AS build
 
-RUN apt-get update && apt-get install -y git
-
-ENV GOPRIVATE=github.com/zk1569/*
-
 WORKDIR /app
 
 COPY go.mod go.sum ./
