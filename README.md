@@ -80,4 +80,5 @@ Quelques exemples d'actions disponibles :
 - Golang
 - MongoDB
 - Docker / Docker Compose
+- Docker / Docker Compose
 
